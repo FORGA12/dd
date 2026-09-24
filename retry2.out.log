@@ -1,0 +1,907 @@
+[DS-API] Loaded 1 auth account(s): account_1
+
+███████ ██████  ███████ ███████ ██████  ███████ ███████ ███████ ██   ██
+██      ██   ██ ██      ██      ██   ██ ██      ██      ██      ██  ██
+█████   ██████  █████   █████   ██   ██ █████   █████   █████   █████
+██      ██   ██ ██      ██      ██   ██ ██      ██      ██      ██  ██
+██      ██   ██ ███████ ███████ ██████  ███████ ███████ ███████ ██   ██
+
+   FreeDeepseekAPI — API proxy for DeepSeek Web Chat
+   ForgetMeAI: t.me/forgetmeai
+
+
+ForgetMeAI: t.me/forgetmeai
+Auth: ✅ OK
+Auth source: C:\Users\dza\Desktop\neo\_artifacts\FreeDeepseekAPI\deepseek-auth.json
+Accounts: account_1
+Working models: deepseek-chat, deepseek-v3, deepseek-default, deepseek-reasoner, deepseek-r1, deepseek-chat-search, deepseek-default-search, deepseek-reasoner-search, deepseek-r1-search, deepseek-expert, deepseek-v4-pro
+Unsupported/hidden aliases: deepseek-expert-search, deepseek-vision
+Capabilities: GET /v1/model-capabilities
+
+=== Menu ===
+ForgetMeAI: t.me/forgetmeai
+1 - Log in / refresh DeepSeek login
+2 - Import auth file / cookies
+3 - Show models and statuses
+4 - Start proxy (default)
+5 - Exit
+Your choice (Enter = 4): [DS-API] Server on http://127.0.0.1:9655 (multi-agent sessions enabled)
+[DS-API] ForgetMeAI: t.me/forgetmeai
+[DS-API] POST /v1/chat/completions (OpenAI Chat Completions, stream=true|false)
+[DS-API] POST /v1/messages — Anthropic Messages shim for Claude Code
+[DS-API] POST /v1/responses — OpenAI Responses API shim
+[DS-API] GET  /v1/models — supported OpenAI-compatible models
+[DS-API] GET  /v1/model-capabilities — real model mapping and capabilities
+[DS-API] GET  /v1/sessions — list active agent sessions
+[DS-API] POST /reset-session?agent=<id> — reset agent session
+[DS-API] POST /reset-session?agent=all — reset ALL sessions
+[dev-agent/acct:account_1] Created new session: a4642700-1e01-4594-95a1-d46d08878eda
+[dev-agent] Got 48 chars (+0 reasoning chars) in 2917ms (msg#1)
+[dev-agent] Response openai (tool=false, 2917ms, 48 chars)
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 2, msg#1)
+[dev-agent] Got 66 chars (+0 reasoning chars) in 2090ms (msg#2)
+[dev-agent] Streamed openai (tool=false) in 2090ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 4, msg#2)
+[dev-agent] Got 95 chars (+0 reasoning chars) in 2879ms (msg#3)
+[parseToolCall] No tool call match in 95 chars
+[dev-agent] Streamed openai (tool=false) in 2879ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 6, msg#3)
+[dev-agent] Got 76 chars (+0 reasoning chars) in 2756ms (msg#4)
+[parseToolCall] SUCCESS inline: session_status (args=24 chars)
+[dev-agent] Streamed openai (tool=true) in 2756ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 8, msg#4)
+[dev-agent] Got 76 chars (+0 reasoning chars) in 2777ms (msg#5)
+[parseToolCall] SUCCESS inline: session_status (args=24 chars)
+[dev-agent] Streamed openai (tool=true) in 2777ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 10, msg#5)
+[dev-agent] Got 76 chars (+0 reasoning chars) in 3052ms (msg#6)
+[parseToolCall] SUCCESS inline: session_status (args=24 chars)
+[dev-agent] Streamed openai (tool=true) in 3052ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 12, msg#6)
+[dev-agent] Got 521 chars (+0 reasoning chars) in 3787ms (msg#7)
+[parseToolCall] No tool call match in 521 chars
+[dev-agent] Streamed openai (tool=false) in 3787ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 14, msg#7)
+[dev-agent] Got 408 chars (+0 reasoning chars) in 4003ms (msg#8)
+[parseToolCall] No tool call match in 408 chars
+[dev-agent] Streamed openai (tool=false) in 4003ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 16, msg#8)
+[dev-agent] Got 579 chars (+0 reasoning chars) in 4366ms (msg#9)
+[parseToolCall] No tool call match in 579 chars
+[dev-agent] Streamed openai (tool=false) in 4366ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 18, msg#9)
+[dev-agent] Got 171 chars (+0 reasoning chars) in 3357ms (msg#10)
+[parseToolCall] SUCCESS inline: exec (args=129 chars)
+[dev-agent] Streamed openai (tool=true) in 3357ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 20, msg#10)
+[dev-agent] Got 89 chars (+0 reasoning chars) in 3516ms (msg#11)
+[parseToolCall] SUCCESS inline: process (args=44 chars)
+[dev-agent] Streamed openai (tool=true) in 3516ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 22, msg#11)
+[dev-agent] Got 88 chars (+0 reasoning chars) in 3127ms (msg#12)
+[parseToolCall] SUCCESS inline: process (args=43 chars)
+[dev-agent] Streamed openai (tool=true) in 3127ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 24, msg#12)
+[dev-agent] Got 299 chars (+0 reasoning chars) in 4199ms (msg#13)
+[parseToolCall] No tool call match in 299 chars
+[dev-agent] Streamed openai (tool=false) in 4199ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 26, msg#13)
+[dev-agent] Got 160 chars (+0 reasoning chars) in 2934ms (msg#14)
+[parseToolCall] SUCCESS inline: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 2934ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 28, msg#14)
+[dev-agent] Got 161 chars (+0 reasoning chars) in 4227ms (msg#15)
+[parseToolCall] SUCCESS inline: exec (args=119 chars)
+[dev-agent] Streamed openai (tool=true) in 4227ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 30, msg#15)
+[dev-agent] Got 103 chars (+0 reasoning chars) in 4501ms (msg#16)
+[parseToolCall] SUCCESS inline: web_fetch (args=56 chars)
+[dev-agent] Streamed openai (tool=true) in 4501ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 32, msg#16)
+[dev-agent] Got 598 chars (+0 reasoning chars) in 4257ms (msg#17)
+[parseToolCall] No tool call match in 598 chars
+[dev-agent] Streamed openai (tool=false) in 4257ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 34, msg#17)
+[dev-agent] Got 662 chars (+0 reasoning chars) in 4109ms (msg#18)
+[parseToolCall] No tool call match in 662 chars
+[dev-agent] Streamed openai (tool=false) in 4109ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 36, msg#18)
+[dev-agent] Got 154 chars (+0 reasoning chars) in 3253ms (msg#19)
+[parseToolCall] SUCCESS inline: exec (args=112 chars)
+[dev-agent] Streamed openai (tool=true) in 3253ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 38, msg#19)
+[dev-agent] Got 159 chars (+0 reasoning chars) in 4267ms (msg#20)
+[parseToolCall] SUCCESS inline: exec (args=117 chars)
+[dev-agent] Streamed openai (tool=true) in 4267ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 40, msg#20)
+[dev-agent] Got 102 chars (+0 reasoning chars) in 3224ms (msg#21)
+[parseToolCall] SUCCESS inline: process (args=57 chars)
+[dev-agent] Streamed openai (tool=true) in 3224ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 42, msg#21)
+[dev-agent] Got 86 chars (+0 reasoning chars) in 4196ms (msg#22)
+[parseToolCall] SUCCESS inline: process (args=41 chars)
+[dev-agent] Streamed openai (tool=true) in 4196ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 44, msg#22)
+[dev-agent] Got 103 chars (+0 reasoning chars) in 4386ms (msg#23)
+[parseToolCall] SUCCESS inline: web_fetch (args=56 chars)
+[dev-agent] Streamed openai (tool=true) in 4386ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 46, msg#23)
+[dev-agent] Got 160 chars (+0 reasoning chars) in 5464ms (msg#24)
+[parseToolCall] SUCCESS inline: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 5464ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 48, msg#24)
+[dev-agent] Got 160 chars (+0 reasoning chars) in 4162ms (msg#25)
+[parseToolCall] SUCCESS inline: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 4162ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 50, msg#25)
+[dev-agent] Got 188 chars (+0 reasoning chars) in 5693ms (msg#26)
+[parseToolCall] SUCCESS inline: exec (args=146 chars)
+[dev-agent] Streamed openai (tool=true) in 5693ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 52, msg#26)
+[dev-agent] Got 724 chars (+0 reasoning chars) in 6205ms (msg#27)
+[parseToolCall] No tool call match in 724 chars
+[dev-agent] Streamed openai (tool=false) in 6205ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 54, msg#27)
+[dev-agent] Got 12 chars (+0 reasoning chars) in 6401ms (msg#28)
+[parseToolCall] No tool call match in 12 chars
+[dev-agent] Streamed openai (tool=false) in 6401ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 56, msg#28)
+[dev-agent] Got 581 chars (+0 reasoning chars) in 4905ms (msg#29)
+[parseToolCall] No tool call match in 581 chars
+[dev-agent] Streamed openai (tool=false) in 4905ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 58, msg#29)
+[dev-agent] Got 710 chars (+0 reasoning chars) in 4927ms (msg#30)
+[parseToolCall] SUCCESS inline: exec (args=292 chars)
+[dev-agent] Streamed openai (tool=true) in 4927ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 60, msg#30)
+[dev-agent] Got 625 chars (+0 reasoning chars) in 7668ms (msg#31)
+[parseToolCall] SUCCESS inline: exec (args=255 chars)
+[dev-agent] Streamed openai (tool=true) in 7668ms
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 62, msg#31)
+[dev-agent] Got 648 chars (+0 reasoning chars) in 7326ms (msg#32)
+[parseToolCall] No tool call match in 648 chars
+[dev-agent] Streamed openai (tool=false) in 7326ms
+[dev-agent] Compacted upstream prompt 80677 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 64, msg#32)
+[dev-agent] Got 636 chars (+0 reasoning chars) in 7530ms (msg#33)
+[parseToolCall] SUCCESS inline: exec (args=594 chars)
+[dev-agent] Streamed openai (tool=true) in 7530ms
+[dev-agent] Compacted upstream prompt 82423 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 66, msg#33)
+[dev-agent] Got 888 chars (+0 reasoning chars) in 6883ms (msg#34)
+[parseToolCall] SUCCESS inline: exec (args=641 chars)
+[dev-agent] Streamed openai (tool=true) in 6883ms
+[dev-agent] Compacted upstream prompt 83633 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 68, msg#34)
+[dev-agent] Got 664 chars (+0 reasoning chars) in 7116ms (msg#35)
+[parseToolCall] SUCCESS inline: exec (args=472 chars)
+[dev-agent] Streamed openai (tool=true) in 7116ms
+[dev-agent] Compacted upstream prompt 84653 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 70, msg#35)
+[dev-agent] Got 836 chars (+0 reasoning chars) in 9357ms (msg#36)
+[parseToolCall] SUCCESS inline: exec (args=476 chars)
+[dev-agent] Streamed openai (tool=true) in 9357ms
+[dev-agent] Compacted upstream prompt 84747 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 72, msg#36)
+[dev-agent] Got 491 chars (+0 reasoning chars) in 5765ms (msg#37)
+[parseToolCall] SUCCESS inline: exec (args=449 chars)
+[dev-agent] Streamed openai (tool=true) in 5765ms
+[dev-agent] Compacted upstream prompt 85297 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 74, msg#37)
+[dev-agent] Got 604 chars (+0 reasoning chars) in 7415ms (msg#38)
+[parseToolCall] SUCCESS inline: exec (args=442 chars)
+[dev-agent] Streamed openai (tool=true) in 7415ms
+[dev-agent] Compacted upstream prompt 117795 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 76, msg#38)
+[dev-agent] Got 664 chars (+0 reasoning chars) in 5877ms (msg#39)
+[parseToolCall] No tool call match in 664 chars
+[dev-agent] Streamed openai (tool=false) in 5877ms
+[dev-agent] Compacted upstream prompt 119568 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 78, msg#39)
+[dev-agent] Got 93 chars (+0 reasoning chars) in 6847ms (msg#40)
+[parseToolCall] SUCCESS inline: read (args=51 chars)
+[dev-agent] Streamed openai (tool=true) in 6847ms
+[dev-agent] Compacted upstream prompt 119777 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 80, msg#40)
+[dev-agent] Got 176 chars (+0 reasoning chars) in 6675ms (msg#41)
+[parseToolCall] SUCCESS inline: exec (args=134 chars)
+[dev-agent] Streamed openai (tool=true) in 6675ms
+[dev-agent] Compacted upstream prompt 123473 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 82, msg#41)
+[dev-agent] Got 107 chars (+0 reasoning chars) in 4576ms (msg#42)
+[parseToolCall] SUCCESS inline: read (args=65 chars)
+[dev-agent] Streamed openai (tool=true) in 4576ms
+[dev-agent] Compacted upstream prompt 124801 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 84, msg#42)
+[dev-agent] Got 98 chars (+0 reasoning chars) in 5117ms (msg#43)
+[parseToolCall] SUCCESS inline: read (args=56 chars)
+[dev-agent] Streamed openai (tool=true) in 5117ms
+[dev-agent] Compacted upstream prompt 125015 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 86, msg#43)
+[dev-agent] Got 415 chars (+0 reasoning chars) in 8483ms (msg#44)
+[parseToolCall] SUCCESS inline: exec (args=146 chars)
+[dev-agent] Streamed openai (tool=true) in 8483ms
+[dev-agent] Compacted upstream prompt 125703 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 88, msg#44)
+[dev-agent] Got 116 chars (+0 reasoning chars) in 4982ms (msg#45)
+[parseToolCall] SUCCESS inline: read (args=74 chars)
+[dev-agent] Streamed openai (tool=true) in 4982ms
+[dev-agent] Compacted upstream prompt 128620 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 90, msg#45)
+[dev-agent] Got 110 chars (+0 reasoning chars) in 7065ms (msg#46)
+[parseToolCall] SUCCESS inline: read (args=68 chars)
+[dev-agent] Streamed openai (tool=true) in 7065ms
+[dev-agent] Compacted upstream prompt 134054 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 92, msg#46)
+[dev-agent] Got 964 chars (+0 reasoning chars) in 10012ms (msg#47)
+[parseToolCall] No tool call match in 964 chars
+[dev-agent] Streamed openai (tool=false) in 10012ms
+[dev-agent] Compacted upstream prompt 135079 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 94, msg#47)
+[dev-agent] Got 281 chars (+0 reasoning chars) in 8954ms (msg#48)
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=29 chars)
+[dev-agent] Streamed openai (tool=true) in 8954ms
+[dev-agent] Compacted upstream prompt 134789 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 96, msg#48)
+[dev-agent] Got 96 chars (+0 reasoning chars) in 7890ms (msg#49)
+[parseToolCall] SUCCESS inline: n8n__get_workflow_details (args=33 chars)
+[dev-agent] Streamed openai (tool=true) in 7890ms
+[dev-agent] Compacted upstream prompt 135176 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: a4642700-1e01-4594-95a1-d46d08878eda (parent: 98, msg#49)
+[dev-agent] Got 443 chars (+0 reasoning chars) in 9458ms (msg#50)
+[parseToolCall] No tool call match in 443 chars
+[dev-agent] Tool-call markup detected but invalid/truncated (443 chars). Retrying with stricter prompt...
+[dev-agent/acct:account_1] Created new session: f904737f-6d37-4beb-96a5-abbf2d059da2
+[parseToolCall] SUCCESS legacy: exec (args=170 chars)
+[dev-agent] Retry with strict prompt succeeded: exec
+[dev-agent] Streamed openai (tool=true) in 9458ms
+[dev-agent] Compacted upstream prompt 136198 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 2, msg#1)
+[dev-agent] Got 244 chars (+0 reasoning chars) in 2978ms (msg#2)
+[parseToolCall] SUCCESS legacy: exec (args=217 chars)
+[dev-agent] Streamed openai (tool=true) in 2978ms
+[dev-agent] Compacted upstream prompt 136986 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 4, msg#2)
+[dev-agent] Got 158 chars (+0 reasoning chars) in 3055ms (msg#3)
+[parseToolCall] SUCCESS legacy: exec (args=131 chars)
+[dev-agent] Streamed openai (tool=true) in 3055ms
+[dev-agent] Compacted upstream prompt 136877 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 6, msg#3)
+[dev-agent] Got 5797 chars (+0 reasoning chars) in 13271ms (msg#4)
+[parseToolCall] SUCCESS legacy: write (args=5769 chars)
+[dev-agent] Streamed openai (tool=true) in 13271ms
+[dev-agent] Compacted upstream prompt 142808 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 8, msg#4)
+[dev-agent] Got 190 chars (+0 reasoning chars) in 3398ms (msg#5)
+[parseToolCall] SUCCESS legacy: exec (args=163 chars)
+[dev-agent] Streamed openai (tool=true) in 3398ms
+[dev-agent] Compacted upstream prompt 143172 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 10, msg#5)
+[dev-agent] Got 90 chars (+0 reasoning chars) in 3160ms (msg#6)
+[parseToolCall] SUCCESS legacy: process (args=60 chars)
+[dev-agent] Streamed openai (tool=true) in 3160ms
+[dev-agent] Compacted upstream prompt 143708 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 12, msg#6)
+[dev-agent] Got 80 chars (+0 reasoning chars) in 3191ms (msg#7)
+[parseToolCall] SUCCESS legacy: n8n__search_workflows (args=36 chars)
+[dev-agent] Streamed openai (tool=true) in 3191ms
+[dev-agent] Compacted upstream prompt 143537 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 14, msg#7)
+[dev-agent] Got 190 chars (+0 reasoning chars) in 3653ms (msg#8)
+[parseToolCall] SUCCESS legacy: exec (args=163 chars)
+[dev-agent] Streamed openai (tool=true) in 3653ms
+[dev-agent] Compacted upstream prompt 144703 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 16, msg#8)
+[dev-agent] Got 270 chars (+0 reasoning chars) in 3402ms (msg#9)
+[parseToolCall] SUCCESS legacy: exec (args=243 chars)
+[dev-agent] Streamed openai (tool=true) in 3402ms
+[dev-agent] Compacted upstream prompt 145517 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 18, msg#9)
+[dev-agent] Got 176 chars (+0 reasoning chars) in 3740ms (msg#10)
+[parseToolCall] SUCCESS legacy: exec (args=149 chars)
+[dev-agent] Streamed openai (tool=true) in 3740ms
+[dev-agent] Compacted upstream prompt 145425 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 20, msg#10)
+[dev-agent] Got 88 chars (+0 reasoning chars) in 4115ms (msg#11)
+[parseToolCall] SUCCESS legacy: process (args=58 chars)
+[dev-agent] Streamed openai (tool=true) in 4115ms
+[dev-agent] Compacted upstream prompt 146129 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 22, msg#11)
+[dev-agent] Got 135 chars (+0 reasoning chars) in 4061ms (msg#12)
+[parseToolCall] SUCCESS legacy: exec (args=108 chars)
+[dev-agent] Streamed openai (tool=true) in 4061ms
+[dev-agent] Compacted upstream prompt 146262 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 24, msg#12)
+[dev-agent] Got 125 chars (+0 reasoning chars) in 4187ms (msg#13)
+[parseToolCall] SUCCESS legacy: exec (args=98 chars)
+[dev-agent] Streamed openai (tool=true) in 4187ms
+[dev-agent] Compacted upstream prompt 146467 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 26, msg#13)
+[dev-agent] Got 125 chars (+0 reasoning chars) in 3193ms (msg#14)
+[parseToolCall] SUCCESS legacy: read (args=98 chars)
+[dev-agent] Streamed openai (tool=true) in 3193ms
+[dev-agent] Compacted upstream prompt 146934 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 28, msg#14)
+[dev-agent] Got 176 chars (+0 reasoning chars) in 4349ms (msg#15)
+[parseToolCall] SUCCESS legacy: exec (args=149 chars)
+[dev-agent] Streamed openai (tool=true) in 4349ms
+[dev-agent] Compacted upstream prompt 146857 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 30, msg#15)
+[dev-agent] Got 90 chars (+0 reasoning chars) in 4511ms (msg#16)
+[parseToolCall] SUCCESS legacy: process (args=60 chars)
+[dev-agent] Streamed openai (tool=true) in 4511ms
+[dev-agent] Compacted upstream prompt 147563 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 32, msg#16)
+[dev-agent] Got 1338 chars (+0 reasoning chars) in 6578ms (msg#17)
+[parseToolCall] fenced JSON.parse failed: Unexpected token 'h', "http://loc"... is not valid JSON
+[parseToolCall] No tool call match in 1338 chars
+[dev-agent] Streamed openai (tool=false) in 6578ms
+[dev-agent] Compacted upstream prompt 148959 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 34, msg#17)
+[dev-agent] Got 277 chars (+0 reasoning chars) in 4342ms (msg#18)
+[parseToolCall] SUCCESS legacy: exec (args=250 chars)
+[dev-agent] Streamed openai (tool=true) in 4342ms
+[dev-agent] Compacted upstream prompt 149908 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 36, msg#18)
+[dev-agent] Got 319 chars (+0 reasoning chars) in 4616ms (msg#19)
+[parseToolCall] SUCCESS legacy: exec (args=292 chars)
+[dev-agent] Streamed openai (tool=true) in 4616ms
+[dev-agent] Compacted upstream prompt 151729 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 38, msg#19)
+[dev-agent] Got 106 chars (+0 reasoning chars) in 3967ms (msg#20)
+[parseToolCall] No tool call match in 106 chars
+[dev-agent] Streamed openai (tool=false) in 3967ms
+[dev-agent] Compacted upstream prompt 151591 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 40, msg#20)
+[dev-agent] Got 314 chars (+0 reasoning chars) in 6646ms (msg#21)
+[parseToolCall] SUCCESS legacy: exec (args=287 chars)
+[dev-agent] Streamed openai (tool=true) in 6646ms
+[dev-agent] Compacted upstream prompt 153130 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 42, msg#21)
+[dev-agent] Got 407 chars (+0 reasoning chars) in 5721ms (msg#22)
+[parseToolCall] SUCCESS legacy: exec (args=380 chars)
+[dev-agent] Streamed openai (tool=true) in 5721ms
+[dev-agent] Compacted upstream prompt 153270 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 44, msg#22)
+[dev-agent] Got 89 chars (+0 reasoning chars) in 5427ms (msg#23)
+[parseToolCall] SUCCESS legacy: process (args=59 chars)
+[dev-agent] Streamed openai (tool=true) in 5427ms
+[dev-agent] Compacted upstream prompt 154878 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 46, msg#23)
+[dev-agent] Got 196 chars (+0 reasoning chars) in 6221ms (msg#24)
+[parseToolCall] SUCCESS legacy: exec (args=169 chars)
+[dev-agent] Streamed openai (tool=true) in 6221ms
+[dev-agent] Compacted upstream prompt 155507 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 48, msg#24)
+[dev-agent] Got 169 chars (+0 reasoning chars) in 4925ms (msg#25)
+[parseToolCall] SUCCESS legacy: exec (args=142 chars)
+[dev-agent] Streamed openai (tool=true) in 4925ms
+[dev-agent] Compacted upstream prompt 155408 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 50, msg#25)
+[dev-agent] Got 89 chars (+0 reasoning chars) in 3862ms (msg#26)
+[parseToolCall] SUCCESS legacy: process (args=59 chars)
+[dev-agent] Streamed openai (tool=true) in 3862ms
+[dev-agent] Compacted upstream prompt 156109 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 52, msg#26)
+[dev-agent] Got 81 chars (+0 reasoning chars) in 3769ms (msg#27)
+[parseToolCall] SUCCESS legacy: n8n__search_workflows (args=37 chars)
+[dev-agent] Streamed openai (tool=true) in 3769ms
+[dev-agent] Compacted upstream prompt 155856 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 54, msg#27)
+[dev-agent] Got 67 chars (+0 reasoning chars) in 3849ms (msg#28)
+[parseToolCall] SUCCESS legacy: n8n__search_workflows (args=23 chars)
+[dev-agent] Streamed openai (tool=true) in 3849ms
+[dev-agent] Compacted upstream prompt 156001 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: f904737f-6d37-4beb-96a5-abbf2d059da2 (parent: 56, msg#28)
+[dev-agent] Got 690 chars (+0 reasoning chars) in 6758ms (msg#29)
+[parseToolCall] No tool call match in 690 chars
+[dev-agent] Model answered in prose instead of requesting a tool (690 chars). Re-prompting for tool compliance...
+[dev-agent/acct:account_1] Created new session: 21964c05-22ed-456b-9ade-1da9e7e710f8
+[parseToolCall] No tool call match in 661 chars
+[dev-agent] Tool-compliance re-prompt attempt 1 did not yield a tool call.
+[dev-agent/acct:account_1] Created new session: 42045344-2280-42c7-8c7e-3430c9b072bc
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=23 chars)
+[dev-agent] Tool-compliance re-prompt succeeded (attempt 2): n8n__search_workflows
+[dev-agent] Streamed openai (tool=true) in 6758ms
+[dev-agent] Compacted upstream prompt 156146 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 42045344-2280-42c7-8c7e-3430c9b072bc (parent: 2, msg#1)
+[dev-agent] Got 92 chars (+0 reasoning chars) in 2600ms (msg#2)
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=33 chars)
+[dev-agent] Streamed openai (tool=true) in 2600ms
+[dev-agent] Compacted upstream prompt 156301 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 42045344-2280-42c7-8c7e-3430c9b072bc (parent: 4, msg#2)
+[dev-agent] Got 82 chars (+0 reasoning chars) in 3472ms (msg#3)
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=23 chars)
+[dev-agent] Streamed openai (tool=true) in 3472ms
+[dev-agent] Compacted upstream prompt 156446 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 42045344-2280-42c7-8c7e-3430c9b072bc (parent: 6, msg#3)
+[dev-agent] Got 83 chars (+0 reasoning chars) in 3242ms (msg#4)
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=24 chars)
+[dev-agent] Streamed openai (tool=true) in 3242ms
+[dev-agent] Compacted upstream prompt 156592 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 42045344-2280-42c7-8c7e-3430c9b072bc (parent: 8, msg#4)
+[dev-agent] Got 97 chars (+0 reasoning chars) in 3077ms (msg#5)
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=38 chars)
+[dev-agent] Streamed openai (tool=true) in 3077ms
+[dev-agent] Compacted upstream prompt 156752 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 42045344-2280-42c7-8c7e-3430c9b072bc (parent: 10, msg#5)
+[dev-agent] Got 90 chars (+0 reasoning chars) in 2686ms (msg#6)
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=31 chars)
+[dev-agent] Streamed openai (tool=true) in 2686ms
+[dev-agent] Compacted upstream prompt 156905 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 42045344-2280-42c7-8c7e-3430c9b072bc (parent: 12, msg#6)
+[dev-agent] Got 83 chars (+0 reasoning chars) in 3033ms (msg#7)
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=24 chars)
+[dev-agent] Streamed openai (tool=true) in 3033ms
+[dev-agent] Compacted upstream prompt 157051 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 42045344-2280-42c7-8c7e-3430c9b072bc (parent: 14, msg#7)
+[dev-agent] Got 109 chars (+0 reasoning chars) in 3162ms (msg#8)
+[parseToolCall] SUCCESS inline: n8n__search_workflows (args=50 chars)
+[dev-agent] Streamed openai (tool=true) in 3162ms
+[dev-agent] Compacted upstream prompt 157223 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 42045344-2280-42c7-8c7e-3430c9b072bc (parent: 16, msg#8)
+[dev-agent] Got 0 chars (+0 reasoning chars) in 1927ms (msg#9)
+[dev-agent] rate-limit model error (msg#9, retry 1/2, prompt=64000 chars). Resetting session...
+[dev-agent/acct:account_1] Created new session: fe3e4d78-79b7-450b-b04d-0dfbd66985b3
+[dev-agent] rate-limit model error (msg#1, retry 2/2, prompt=48000 chars). Resetting session...
+[dev-agent/acct:account_1] Created new session: 0822a132-b84f-407f-bf1d-fcd21e4f8859
+[dev-agent] rate_limit_error after 2 retries. Giving up.
+[dev-agent] Compacted upstream prompt 157223 -> 80000 chars
+[dev-agent/acct:account_1] Created new session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b
+[dev-agent] Got 259 chars (+0 reasoning chars) in 4633ms (msg#1)
+[parseToolCall] SUCCESS legacy: exec (args=232 chars)
+[dev-agent] Streamed openai (tool=true) in 4633ms
+[dev-agent] Compacted upstream prompt 157658 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 2, msg#1)
+[dev-agent] Got 361 chars (+0 reasoning chars) in 3122ms (msg#2)
+[parseToolCall] No tool call match in 361 chars
+[dev-agent] Streamed openai (tool=false) in 3122ms
+[dev-agent] Compacted upstream prompt 158093 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 4, msg#2)
+[dev-agent] Got 145 chars (+0 reasoning chars) in 3323ms (msg#3)
+[parseToolCall] SUCCESS legacy: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 3323ms
+[dev-agent] Compacted upstream prompt 159465 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 6, msg#3)
+[dev-agent] Got 176 chars (+0 reasoning chars) in 3289ms (msg#4)
+[parseToolCall] SUCCESS legacy: exec (args=149 chars)
+[dev-agent] Streamed openai (tool=true) in 3289ms
+[dev-agent] Compacted upstream prompt 159814 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 8, msg#4)
+[dev-agent] Got 88 chars (+0 reasoning chars) in 3079ms (msg#5)
+[parseToolCall] SUCCESS legacy: process (args=58 chars)
+[dev-agent] Streamed openai (tool=true) in 3079ms
+[dev-agent] Compacted upstream prompt 159970 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 10, msg#5)
+[dev-agent] Got 72 chars (+0 reasoning chars) in 3181ms (msg#6)
+[parseToolCall] SUCCESS legacy: process (args=42 chars)
+[dev-agent] Streamed openai (tool=true) in 3181ms
+[dev-agent] Compacted upstream prompt 160116 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 12, msg#6)
+[dev-agent] Got 138 chars (+0 reasoning chars) in 3271ms (msg#7)
+[parseToolCall] SUCCESS legacy: exec (args=111 chars)
+[dev-agent] Streamed openai (tool=true) in 3271ms
+[dev-agent] Compacted upstream prompt 160328 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 14, msg#7)
+[dev-agent] Got 155 chars (+0 reasoning chars) in 3290ms (msg#8)
+[parseToolCall] SUCCESS legacy: exec (args=128 chars)
+[dev-agent] Streamed openai (tool=true) in 3290ms
+[dev-agent] Compacted upstream prompt 160655 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 16, msg#8)
+[dev-agent] Got 89 chars (+0 reasoning chars) in 3512ms (msg#9)
+[parseToolCall] SUCCESS legacy: process (args=59 chars)
+[dev-agent] Streamed openai (tool=true) in 3512ms
+[dev-agent] Compacted upstream prompt 160821 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 18, msg#9)
+[dev-agent] Got 72 chars (+0 reasoning chars) in 3672ms (msg#10)
+[parseToolCall] SUCCESS legacy: process (args=42 chars)
+[dev-agent] Streamed openai (tool=true) in 3672ms
+[dev-agent] Compacted upstream prompt 161881 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 20, msg#10)
+[dev-agent] Got 81 chars (+0 reasoning chars) in 3886ms (msg#11)
+[parseToolCall] SUCCESS legacy: n8n__search_workflows (args=37 chars)
+[dev-agent] Streamed openai (tool=true) in 3886ms
+[dev-agent] Compacted upstream prompt 162283 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 22, msg#11)
+[dev-agent] Got 277 chars (+0 reasoning chars) in 5439ms (msg#12)
+[parseToolCall] SUCCESS legacy: exec (args=250 chars)
+[dev-agent] Streamed openai (tool=true) in 5439ms
+[dev-agent] Compacted upstream prompt 163205 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 24, msg#12)
+[dev-agent] Got 319 chars (+0 reasoning chars) in 5595ms (msg#13)
+[parseToolCall] SUCCESS legacy: exec (args=292 chars)
+[dev-agent] Streamed openai (tool=true) in 5595ms
+[dev-agent] Compacted upstream prompt 165026 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 26, msg#13)
+[dev-agent] Got 752 chars (+0 reasoning chars) in 5000ms (msg#14)
+[parseToolCall] No tool call match in 752 chars
+[dev-agent] Streamed openai (tool=false) in 5000ms
+[dev-agent] Compacted upstream prompt 166154 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 28, msg#14)
+[dev-agent] Got 222 chars (+0 reasoning chars) in 6413ms (msg#15)
+[parseToolCall] No tool call match in 222 chars
+[dev-agent] Streamed openai (tool=false) in 6413ms
+[dev-agent] Compacted upstream prompt 166435 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 30, msg#15)
+[dev-agent] Got 305 chars (+0 reasoning chars) in 6294ms (msg#16)
+[parseToolCall] SUCCESS legacy: exec (args=278 chars)
+[dev-agent] Streamed openai (tool=true) in 6294ms
+[dev-agent] Compacted upstream prompt 167385 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 32, msg#16)
+[dev-agent] Got 347 chars (+0 reasoning chars) in 4656ms (msg#17)
+[parseToolCall] SUCCESS legacy: exec (args=320 chars)
+[dev-agent] Streamed openai (tool=true) in 4656ms
+[dev-agent] Compacted upstream prompt 168605 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 34, msg#17)
+[dev-agent] Got 638 chars (+0 reasoning chars) in 5590ms (msg#18)
+[parseToolCall] No tool call match in 638 chars
+[dev-agent] Streamed openai (tool=false) in 5590ms
+[dev-agent] Compacted upstream prompt 169047 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 36, msg#18)
+[dev-agent] Got 441 chars (+0 reasoning chars) in 4645ms (msg#19)
+[parseToolCall] No tool call match in 441 chars
+[dev-agent] Streamed openai (tool=false) in 4645ms
+[dev-agent] Compacted upstream prompt 164595 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 38, msg#19)
+[dev-agent] Got 414 chars (+0 reasoning chars) in 8584ms (msg#20)
+[parseToolCall] No tool call match in 414 chars
+[dev-agent] Streamed openai (tool=false) in 8584ms
+[dev-agent] Compacted upstream prompt 165061 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 40, msg#20)
+[dev-agent] Got 160 chars (+0 reasoning chars) in 3777ms (msg#21)
+[parseToolCall] No tool call match in 160 chars
+[dev-agent] Streamed openai (tool=false) in 3777ms
+[dev-agent] Compacted upstream prompt 165290 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 42, msg#21)
+[dev-agent] Got 144 chars (+0 reasoning chars) in 3814ms (msg#22)
+[parseToolCall] SUCCESS legacy: exec (args=117 chars)
+[dev-agent] Streamed openai (tool=true) in 3814ms
+[dev-agent] Compacted upstream prompt 165033 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 44, msg#22)
+[dev-agent] Got 297 chars (+0 reasoning chars) in 5996ms (msg#23)
+[parseToolCall] SUCCESS legacy: exec (args=270 chars)
+[dev-agent] Streamed openai (tool=true) in 5996ms
+[dev-agent] Compacted upstream prompt 165505 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 46, msg#23)
+[dev-agent] Got 787 chars (+0 reasoning chars) in 7746ms (msg#24)
+[parseToolCall] No tool call match in 787 chars
+[dev-agent] Streamed openai (tool=false) in 7746ms
+[dev-agent] Compacted upstream prompt 171311 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 48, msg#24)
+[dev-agent] Got 277 chars (+0 reasoning chars) in 7231ms (msg#25)
+[parseToolCall] SUCCESS legacy: exec (args=250 chars)
+[dev-agent] Streamed openai (tool=true) in 7231ms
+[dev-agent] Compacted upstream prompt 172674 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 50, msg#25)
+[dev-agent] Got 319 chars (+0 reasoning chars) in 5973ms (msg#26)
+[parseToolCall] SUCCESS legacy: exec (args=292 chars)
+[dev-agent] Streamed openai (tool=true) in 5973ms
+[dev-agent] Compacted upstream prompt 172726 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 52, msg#26)
+[dev-agent] Got 90 chars (+0 reasoning chars) in 6726ms (msg#27)
+[parseToolCall] SUCCESS legacy: process (args=60 chars)
+[dev-agent] Streamed openai (tool=true) in 6726ms
+[dev-agent] Compacted upstream prompt 174760 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 54, msg#27)
+[dev-agent] Got 843 chars (+0 reasoning chars) in 6081ms (msg#28)
+[parseToolCall] No tool call match in 843 chars
+[dev-agent] Streamed openai (tool=false) in 6081ms
+[dev-agent] Compacted upstream prompt 175826 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 56, msg#28)
+[dev-agent] Got 994 chars (+0 reasoning chars) in 10810ms (msg#29)
+[parseToolCall] No tool call match in 994 chars
+[dev-agent] Streamed openai (tool=false) in 10810ms
+[dev-agent] Compacted upstream prompt 176872 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 58, msg#29)
+[dev-agent] Got 282 chars (+0 reasoning chars) in 4566ms (msg#30)
+[parseToolCall] SUCCESS legacy: exec (args=255 chars)
+[dev-agent] Streamed openai (tool=true) in 4566ms
+[dev-agent] Compacted upstream prompt 177799 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 60, msg#30)
+[dev-agent] Got 324 chars (+0 reasoning chars) in 6763ms (msg#31)
+[parseToolCall] SUCCESS legacy: exec (args=297 chars)
+[dev-agent] Streamed openai (tool=true) in 6763ms
+[dev-agent] Compacted upstream prompt 179506 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 62, msg#31)
+[dev-agent] Got 925 chars (+0 reasoning chars) in 7486ms (msg#32)
+[parseToolCall] No tool call match in 925 chars
+[dev-agent] Streamed openai (tool=false) in 7486ms
+[dev-agent] Compacted upstream prompt 180497 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 64, msg#32)
+[dev-agent] Got 614 chars (+0 reasoning chars) in 8997ms (msg#33)
+[parseToolCall] fenced JSON.parse failed: Unexpected token 'b', "bash
+n8n i"... is not valid JSON
+[parseToolCall] No tool call match in 614 chars
+[dev-agent] Streamed openai (tool=false) in 8997ms
+[dev-agent] Compacted upstream prompt 181166 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 66, msg#33)
+[dev-agent] Got 172 chars (+0 reasoning chars) in 7121ms (msg#34)
+[parseToolCall] SUCCESS legacy: exec (args=145 chars)
+[dev-agent] Streamed openai (tool=true) in 7121ms
+[dev-agent] Compacted upstream prompt 181071 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 68, msg#34)
+[dev-agent] Got 90 chars (+0 reasoning chars) in 7905ms (msg#35)
+[parseToolCall] SUCCESS legacy: process (args=60 chars)
+[dev-agent] Streamed openai (tool=true) in 7905ms
+[dev-agent] Compacted upstream prompt 181229 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 70, msg#35)
+[dev-agent] Got 73 chars (+0 reasoning chars) in 5252ms (msg#36)
+[parseToolCall] SUCCESS legacy: process (args=43 chars)
+[dev-agent] Streamed openai (tool=true) in 5252ms
+[dev-agent] Compacted upstream prompt 181346 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 72, msg#36)
+[dev-agent] Got 622 chars (+0 reasoning chars) in 8665ms (msg#37)
+[parseToolCall] No tool call match in 622 chars
+[dev-agent] Streamed openai (tool=false) in 8665ms
+[dev-agent] Compacted upstream prompt 182020 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 74, msg#37)
+[dev-agent] Got 138 chars (+0 reasoning chars) in 7320ms (msg#38)
+[parseToolCall] SUCCESS legacy: exec (args=111 chars)
+[dev-agent] Streamed openai (tool=true) in 7320ms
+[dev-agent] Compacted upstream prompt 182568 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 1def781a-a44f-4605-b4f5-b4db3bd75b0b (parent: 76, msg#38)
+[dev-agent] Got 226 chars (+0 reasoning chars) in 7577ms (msg#39)
+[parseToolCall] No tool call match in 226 chars
+[dev-agent] Streamed openai (tool=false) in 7577ms
+[dev-agent] Session 1def781a-a44f-4605-b4f5-b4db3bd75b0b reset before prompt build (session_ttl); recovery history preserved.
+[dev-agent] Compacted upstream prompt 182852 -> 80000 chars
+[dev-agent/acct:account_1] Created new session: 7afb841a-c58f-41d8-8632-616fe44875bb
+[dev-agent] Got 431 chars (+0 reasoning chars) in 4571ms (msg#1)
+[parseToolCall] SUCCESS legacy: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 4571ms
+[dev-agent] Compacted upstream prompt 184967 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 2, msg#1)
+[dev-agent] Got 153 chars (+0 reasoning chars) in 3660ms (msg#2)
+[parseToolCall] SUCCESS inline: exec (args=111 chars)
+[dev-agent] Streamed openai (tool=true) in 3660ms
+[dev-agent] Compacted upstream prompt 185179 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 4, msg#2)
+[dev-agent] Got 207 chars (+0 reasoning chars) in 2817ms (msg#3)
+[parseToolCall] SUCCESS inline: exec (args=165 chars)
+[dev-agent] Streamed openai (tool=true) in 2817ms
+[dev-agent] Compacted upstream prompt 185542 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 6, msg#3)
+[dev-agent] Got 103 chars (+0 reasoning chars) in 3769ms (msg#4)
+[parseToolCall] SUCCESS inline: process (args=58 chars)
+[dev-agent] Streamed openai (tool=true) in 3769ms
+[dev-agent] Compacted upstream prompt 186448 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 8, msg#4)
+[dev-agent] Got 261 chars (+0 reasoning chars) in 3797ms (msg#5)
+[parseToolCall] SUCCESS legacy: exec (args=234 chars)
+[dev-agent] Streamed openai (tool=true) in 3797ms
+[dev-agent] Compacted upstream prompt 186440 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 10, msg#5)
+[dev-agent] Got 104 chars (+0 reasoning chars) in 3612ms (msg#6)
+[parseToolCall] SUCCESS inline: process (args=59 chars)
+[dev-agent] Streamed openai (tool=true) in 3612ms
+[dev-agent] Compacted upstream prompt 186701 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 12, msg#6)
+[dev-agent] Got 87 chars (+0 reasoning chars) in 4130ms (msg#7)
+[parseToolCall] SUCCESS inline: process (args=42 chars)
+[dev-agent] Streamed openai (tool=true) in 4130ms
+[dev-agent] Compacted upstream prompt 186945 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 14, msg#7)
+[dev-agent] Got 160 chars (+0 reasoning chars) in 4645ms (msg#8)
+[parseToolCall] SUCCESS inline: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 4645ms
+[dev-agent] Compacted upstream prompt 189427 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 16, msg#8)
+[dev-agent] Got 153 chars (+0 reasoning chars) in 4363ms (msg#9)
+[parseToolCall] SUCCESS inline: exec (args=111 chars)
+[dev-agent] Streamed openai (tool=true) in 4363ms
+[dev-agent] Compacted upstream prompt 189639 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 18, msg#9)
+[dev-agent] Got 170 chars (+0 reasoning chars) in 4580ms (msg#10)
+[parseToolCall] SUCCESS inline: exec (args=128 chars)
+[dev-agent] Streamed openai (tool=true) in 4580ms
+[dev-agent] Compacted upstream prompt 189966 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 20, msg#10)
+[dev-agent] Got 104 chars (+0 reasoning chars) in 5241ms (msg#11)
+[parseToolCall] SUCCESS inline: process (args=59 chars)
+[dev-agent] Streamed openai (tool=true) in 5241ms
+[dev-agent] Compacted upstream prompt 190227 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 22, msg#11)
+[dev-agent] Got 87 chars (+0 reasoning chars) in 4352ms (msg#12)
+[parseToolCall] SUCCESS inline: process (args=42 chars)
+[dev-agent] Streamed openai (tool=true) in 4352ms
+[dev-agent] Compacted upstream prompt 190471 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7afb841a-c58f-41d8-8632-616fe44875bb (parent: 24, msg#12)
+[dev-agent] Got 306 chars (+0 reasoning chars) in 5175ms (msg#13)
+[parseToolCall] No tool call match in 306 chars
+[dev-agent] Tool-call markup detected but invalid/truncated (306 chars). Retrying with stricter prompt...
+[dev-agent/acct:account_1] Created new session: 2c35fcc4-6479-4786-960a-d9f552b3fd61
+[parseToolCall] SUCCESS inline: exec (args=128 chars)
+[dev-agent] Retry with strict prompt succeeded: exec
+[dev-agent] Streamed openai (tool=true) in 5175ms
+[dev-agent] Compacted upstream prompt 190799 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 2, msg#1)
+[dev-agent] Got 105 chars (+0 reasoning chars) in 3475ms (msg#2)
+[parseToolCall] SUCCESS inline: process (args=60 chars)
+[dev-agent] Streamed openai (tool=true) in 3475ms
+[dev-agent] Compacted upstream prompt 191061 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 4, msg#2)
+[dev-agent] Got 89 chars (+0 reasoning chars) in 2687ms (msg#3)
+[parseToolCall] SUCCESS inline: process (args=44 chars)
+[dev-agent] Streamed openai (tool=true) in 2687ms
+[dev-agent] Compacted upstream prompt 191211 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 6, msg#3)
+[dev-agent] Got 188 chars (+0 reasoning chars) in 3554ms (msg#4)
+[parseToolCall] SUCCESS inline: exec (args=146 chars)
+[dev-agent] Streamed openai (tool=true) in 3554ms
+[dev-agent] Compacted upstream prompt 191557 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 8, msg#4)
+[dev-agent] Got 105 chars (+0 reasoning chars) in 3148ms (msg#5)
+[parseToolCall] SUCCESS inline: process (args=60 chars)
+[dev-agent] Streamed openai (tool=true) in 3148ms
+[dev-agent] Compacted upstream prompt 191819 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 10, msg#5)
+[dev-agent] Got 88 chars (+0 reasoning chars) in 3558ms (msg#6)
+[parseToolCall] SUCCESS inline: process (args=43 chars)
+[dev-agent] Streamed openai (tool=true) in 3558ms
+[dev-agent] Compacted upstream prompt 192064 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 12, msg#6)
+[dev-agent] Got 160 chars (+0 reasoning chars) in 3995ms (msg#7)
+[parseToolCall] SUCCESS inline: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 3995ms
+[dev-agent] Compacted upstream prompt 193431 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 14, msg#7)
+[dev-agent] Got 103 chars (+0 reasoning chars) in 3696ms (msg#8)
+[parseToolCall] SUCCESS inline: web_fetch (args=56 chars)
+[dev-agent] Streamed openai (tool=true) in 3696ms
+[dev-agent] Compacted upstream prompt 193668 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 16, msg#8)
+[dev-agent] Got 161 chars (+0 reasoning chars) in 4321ms (msg#9)
+[parseToolCall] SUCCESS inline: exec (args=119 chars)
+[dev-agent] Streamed openai (tool=true) in 4321ms
+[dev-agent] Compacted upstream prompt 194731 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 18, msg#9)
+[dev-agent] Got 341 chars (+0 reasoning chars) in 5443ms (msg#10)
+[parseToolCall] SUCCESS inline: exec (args=299 chars)
+[dev-agent] Streamed openai (tool=true) in 5443ms
+[dev-agent] Compacted upstream prompt 194936 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 20, msg#10)
+[dev-agent] Got 372 chars (+0 reasoning chars) in 4801ms (msg#11)
+[parseToolCall] SUCCESS inline: exec (args=330 chars)
+[dev-agent] Streamed openai (tool=true) in 4801ms
+[dev-agent] Compacted upstream prompt 195910 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 22, msg#11)
+[dev-agent] Got 382 chars (+0 reasoning chars) in 5729ms (msg#12)
+[parseToolCall] SUCCESS inline: exec (args=340 chars)
+[dev-agent] Streamed openai (tool=true) in 5729ms
+[dev-agent] Compacted upstream prompt 197422 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 24, msg#12)
+[dev-agent] Got 380 chars (+0 reasoning chars) in 5300ms (msg#13)
+[parseToolCall] SUCCESS inline: exec (args=338 chars)
+[dev-agent] Streamed openai (tool=true) in 5300ms
+[dev-agent] Compacted upstream prompt 198229 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 26, msg#13)
+[dev-agent] Got 384 chars (+0 reasoning chars) in 4158ms (msg#14)
+[parseToolCall] SUCCESS inline: exec (args=342 chars)
+[dev-agent] Streamed openai (tool=true) in 4158ms
+[dev-agent] Compacted upstream prompt 199743 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 28, msg#14)
+[dev-agent] Got 384 chars (+0 reasoning chars) in 3697ms (msg#15)
+[parseToolCall] SUCCESS inline: exec (args=342 chars)
+[dev-agent] Streamed openai (tool=true) in 3697ms
+[dev-agent] Compacted upstream prompt 201257 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 30, msg#15)
+[dev-agent] Got 425 chars (+0 reasoning chars) in 4783ms (msg#16)
+[parseToolCall] SUCCESS inline: exec (args=342 chars)
+[dev-agent] Streamed openai (tool=true) in 4783ms
+[dev-agent] Compacted upstream prompt 203021 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 2c35fcc4-6479-4786-960a-d9f552b3fd61 (parent: 32, msg#16)
+[dev-agent] Got 599 chars (+0 reasoning chars) in 5150ms (msg#17)
+[parseToolCall] No tool call match in 599 chars
+[dev-agent] Model answered in prose instead of requesting a tool (599 chars). Re-prompting for tool compliance...
+[dev-agent/acct:account_1] Created new session: cb8a14e8-7adf-4fdc-9d4f-0895ffd366a7
+[parseToolCall] No tool call match in 533 chars
+[dev-agent] Tool-compliance re-prompt attempt 1 did not yield a tool call.
+[dev-agent/acct:account_1] Created new session: 7549a32a-33d8-424f-a81f-a97fb9f67e68
+[parseToolCall] SUCCESS inline: exec (args=146 chars)
+[dev-agent] Tool-compliance re-prompt succeeded (attempt 2): exec
+[dev-agent] Streamed openai (tool=true) in 5150ms
+[dev-agent] Compacted upstream prompt 202673 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 2, msg#1)
+[dev-agent] Got 102 chars (+0 reasoning chars) in 2856ms (msg#2)
+[parseToolCall] SUCCESS inline: process (args=57 chars)
+[dev-agent] Streamed openai (tool=true) in 2856ms
+[dev-agent] Compacted upstream prompt 202932 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 4, msg#2)
+[dev-agent] Got 86 chars (+0 reasoning chars) in 2862ms (msg#3)
+[parseToolCall] SUCCESS inline: process (args=41 chars)
+[dev-agent] Streamed openai (tool=true) in 2862ms
+[dev-agent] Compacted upstream prompt 203076 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 6, msg#3)
+[dev-agent] Got 200 chars (+0 reasoning chars) in 2894ms (msg#4)
+[parseToolCall] SUCCESS inline: exec (args=158 chars)
+[dev-agent] Streamed openai (tool=true) in 2894ms
+[dev-agent] Compacted upstream prompt 203438 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 8, msg#4)
+[dev-agent] Got 109 chars (+0 reasoning chars) in 2686ms (msg#5)
+[parseToolCall] SUCCESS inline: process (args=64 chars)
+[dev-agent] Streamed openai (tool=true) in 2686ms
+[dev-agent] Compacted upstream prompt 203704 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 10, msg#5)
+[dev-agent] Got 200 chars (+0 reasoning chars) in 4453ms (msg#6)
+[parseToolCall] SUCCESS inline: exec (args=158 chars)
+[dev-agent] Streamed openai (tool=true) in 4453ms
+[dev-agent] Compacted upstream prompt 204061 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 12, msg#6)
+[dev-agent] Got 104 chars (+0 reasoning chars) in 2815ms (msg#7)
+[parseToolCall] SUCCESS inline: process (args=59 chars)
+[dev-agent] Streamed openai (tool=true) in 2815ms
+[dev-agent] Compacted upstream prompt 204322 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 14, msg#7)
+[dev-agent] Got 87 chars (+0 reasoning chars) in 3653ms (msg#8)
+[parseToolCall] SUCCESS inline: process (args=42 chars)
+[dev-agent] Streamed openai (tool=true) in 3653ms
+[dev-agent] Compacted upstream prompt 204566 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 16, msg#8)
+[dev-agent] Got 204 chars (+0 reasoning chars) in 3261ms (msg#9)
+[parseToolCall] SUCCESS inline: exec (args=162 chars)
+[dev-agent] Streamed openai (tool=true) in 3261ms
+[dev-agent] Compacted upstream prompt 204929 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 18, msg#9)
+[dev-agent] Got 106 chars (+0 reasoning chars) in 4810ms (msg#10)
+[parseToolCall] SUCCESS inline: process (args=61 chars)
+[dev-agent] Streamed openai (tool=true) in 4810ms
+[dev-agent] Compacted upstream prompt 205074 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 20, msg#10)
+[dev-agent] Got 89 chars (+0 reasoning chars) in 3619ms (msg#11)
+[parseToolCall] SUCCESS inline: process (args=44 chars)
+[dev-agent] Streamed openai (tool=true) in 3619ms
+[dev-agent] Compacted upstream prompt 205178 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 22, msg#11)
+[dev-agent] Got 160 chars (+0 reasoning chars) in 4032ms (msg#12)
+[parseToolCall] SUCCESS inline: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 4032ms
+[dev-agent] Compacted upstream prompt 205653 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 24, msg#12)
+[dev-agent] Got 62 chars (+0 reasoning chars) in 3995ms (msg#13)
+[parseToolCall] SUCCESS inline: process (args=17 chars)
+[dev-agent] Streamed openai (tool=true) in 3995ms
+[dev-agent] Compacted upstream prompt 205873 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 26, msg#13)
+[dev-agent] Got 106 chars (+0 reasoning chars) in 3305ms (msg#14)
+[parseToolCall] SUCCESS inline: process (args=61 chars)
+[dev-agent] Streamed openai (tool=true) in 3305ms
+[dev-agent] Compacted upstream prompt 206528 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 28, msg#14)
+[dev-agent] Got 346 chars (+0 reasoning chars) in 4269ms (msg#15)
+[parseToolCall] SUCCESS inline: exec (args=142 chars)
+[dev-agent] Streamed openai (tool=true) in 4269ms
+[dev-agent] Compacted upstream prompt 206410 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 30, msg#15)
+[dev-agent] Got 200 chars (+0 reasoning chars) in 5157ms (msg#16)
+[parseToolCall] SUCCESS inline: exec (args=158 chars)
+[dev-agent] Streamed openai (tool=true) in 5157ms
+[dev-agent] Compacted upstream prompt 206766 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 32, msg#16)
+[dev-agent] Got 103 chars (+0 reasoning chars) in 3342ms (msg#17)
+[parseToolCall] SUCCESS inline: process (args=58 chars)
+[dev-agent] Streamed openai (tool=true) in 3342ms
+[dev-agent] Compacted upstream prompt 207026 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 34, msg#17)
+[dev-agent] Got 153 chars (+0 reasoning chars) in 4589ms (msg#18)
+[parseToolCall] SUCCESS inline: exec (args=111 chars)
+[dev-agent] Streamed openai (tool=true) in 4589ms
+[dev-agent] Compacted upstream prompt 207238 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 36, msg#18)
+[dev-agent] Got 200 chars (+0 reasoning chars) in 5679ms (msg#19)
+[parseToolCall] SUCCESS inline: exec (args=158 chars)
+[dev-agent] Streamed openai (tool=true) in 5679ms
+[dev-agent] Compacted upstream prompt 207594 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 38, msg#19)
+[dev-agent] Got 103 chars (+0 reasoning chars) in 5507ms (msg#20)
+[parseToolCall] SUCCESS inline: process (args=58 chars)
+[dev-agent] Streamed openai (tool=true) in 5507ms
+[dev-agent] Compacted upstream prompt 207854 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 40, msg#20)
+[dev-agent] Got 160 chars (+0 reasoning chars) in 5835ms (msg#21)
+[parseToolCall] SUCCESS inline: exec (args=118 chars)
+[dev-agent] Streamed openai (tool=true) in 5835ms
+[dev-agent] Compacted upstream prompt 208329 -> 80000 chars
+[dev-agent/acct:account_1] Reusing session: 7549a32a-33d8-424f-a81f-a97fb9f67e68 (parent: 42, msg#21)
+[dev-agent] Got 302 chars (+0 reasoning chars) in 6186ms (msg#22)
+[parseToolCall] SUCCESS inline: exec (args=114 chars)
+[dev-agent] Streamed openai (tool=true) in 6186ms

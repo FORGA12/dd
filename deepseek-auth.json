@@ -1,0 +1,8 @@
+{
+  "token": "3EE22yjPf4oKBJF4XtGGFA8XmffZGJdDKMvzCw4jF9PNR7O+WUgW8sr1MtRNIKrg",
+  "cookie": "ds_session_id=ab7efeac506f437a80c23afe004e6b7a; aws-waf-token=bbb365ef-6b17-44b3-a729-57479191e7f9:EAoAtOV9tfW3IQAA:qhMpadPhm7xHUuGC2ouL62/KFwIWN240nPzm6o5lLHpdph+/xwz8zAUW03+QHTHtZ9CG7iVwp3bEaRtbaY/Hj2/cia8YOCTi2PjxS8FWR8u+xhOnbnFkupFbPuE+OuciTVZGUzizPCndeHeg8lGSYnCtrbpyCZa6eOd6OSfnb62xSwlUGjfzoNl8rqYJbBw4tl///HKuR1LPUTUUXN5SY2E/0T4SNZhl08VQjtto/UNLYFPdUu2ZXVFgxUfnQC3V7CwvLdzEaYCcnufoka1OQghX3HCFtTXIfMdXL/thP3U93Lt2iJqJYbYpU+XWzHYfHV4kslw8rEdCiA==; smidV2=20260924154456628dc2a9ec74483e9b81881d21dc95e600700c32193243a10; .thumbcache_6b2e5483f9d858d7c661c5e276b6a6ae=VvCy53oYZb6609O566ufpqIJz9ahu0+Ca5s46EfpW3u8rA+JxCbfyH6YHdwJdZWA1nr0+st1C2r/G7OmJ8Ibbw%3D%3D",
+  "hif_dliq": "",
+  "hif_leim": "",
+  "wasmUrl": "https://fe-static.deepseek.com/chat/static/sha3_wasm_bg.7b9ca65ddd.wasm",
+  "baseUrl": "https://chat.deepseek.com"
+}

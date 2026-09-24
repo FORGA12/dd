@@ -1,0 +1,28 @@
+[DS-API] Loaded 1 auth account(s): account_1
+
+███████ ██████  ███████ ███████ ██████  ███████ ███████ ███████ ██   ██
+██      ██   ██ ██      ██      ██   ██ ██      ██      ██      ██  ██
+█████   ██████  █████   █████   ██   ██ █████   █████   █████   █████
+██      ██   ██ ██      ██      ██   ██ ██      ██      ██      ██  ██
+██      ██   ██ ███████ ███████ ██████  ███████ ███████ ███████ ██   ██
+
+   FreeDeepseekAPI — API proxy for DeepSeek Web Chat
+   ForgetMeAI: t.me/forgetmeai
+
+
+ForgetMeAI: t.me/forgetmeai
+Auth: ✅ OK
+Auth source: C:\Users\dza\Desktop\neo\_artifacts\FreeDeepseekAPI\deepseek-auth.json
+Accounts: account_1
+Working models: deepseek-chat, deepseek-v3, deepseek-default, deepseek-reasoner, deepseek-r1, deepseek-chat-search, deepseek-default-search, deepseek-reasoner-search, deepseek-r1-search, deepseek-expert, deepseek-v4-pro
+Unsupported/hidden aliases: deepseek-expert-search, deepseek-vision
+Capabilities: GET /v1/model-capabilities
+
+=== Menu ===
+ForgetMeAI: t.me/forgetmeai
+1 - Log in / refresh DeepSeek login
+2 - Import auth file / cookies
+3 - Show models and statuses
+4 - Start proxy (default)
+5 - Exit
+Your choice (Enter = 4): 

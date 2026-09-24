@@ -1,0 +1,23 @@
+[DS-API] Loaded 1 auth account(s): account_1
+
+███████ ██████  ███████ ███████ ██████  ███████ ███████ ███████ ██   ██
+██      ██   ██ ██      ██      ██   ██ ██      ██      ██      ██  ██
+█████   ██████  █████   █████   ██   ██ █████   █████   █████   █████
+██      ██   ██ ██      ██      ██   ██ ██      ██      ██      ██  ██
+██      ██   ██ ███████ ███████ ██████  ███████ ███████ ███████ ██   ██
+
+   FreeDeepseekAPI — API proxy for DeepSeek Web Chat
+   ForgetMeAI: t.me/forgetmeai
+
+[DS-API] Loaded 1 auth account(s): account_1
+[DS-API] Server on http://127.0.0.1:8016 (multi-agent sessions enabled)
+[DS-API] ForgetMeAI: t.me/forgetmeai
+[DS-API] POST /v1/chat/completions (OpenAI Chat Completions, stream=true|false)
+[DS-API] POST /v1/messages — Anthropic Messages shim for Claude Code
+[DS-API] POST /v1/responses — OpenAI Responses API shim
+[DS-API] GET  /v1/models — supported OpenAI-compatible models
+[DS-API] GET  /v1/model-capabilities — real model mapping and capabilities
+[DS-API] GET  /v1/sessions — list active agent sessions
+[DS-API] POST /reset-session?agent=<id> — reset agent session
+[DS-API] POST /reset-session?agent=all — reset ALL sessions
+[DS-API] Error: No valid DeepSeek auth accounts. Run npm run auth or npm run auth:import.

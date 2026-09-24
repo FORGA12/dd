@@ -1,0 +1,24 @@
+[DS-API] Loaded 1 auth account(s): account_1
+
+███████ ██████  ███████ ███████ ██████  ███████ ███████ ███████ ██   ██
+██      ██   ██ ██      ██      ██   ██ ██      ██      ██      ██  ██
+█████   ██████  █████   █████   ██   ██ █████   █████   █████   █████
+██      ██   ██ ██      ██      ██   ██ ██      ██      ██      ██  ██
+██      ██   ██ ███████ ███████ ██████  ███████ ███████ ███████ ██   ██
+
+   FreeDeepseekAPI — API proxy for DeepSeek Web Chat
+   ForgetMeAI: t.me/forgetmeai
+
+[DS-API] Server on http://127.0.0.1:9655 (multi-agent sessions enabled)
+[DS-API] ForgetMeAI: t.me/forgetmeai
+[DS-API] POST /v1/chat/completions (OpenAI Chat Completions, stream=true|false)
+[DS-API] POST /v1/messages — Anthropic Messages shim for Claude Code
+[DS-API] POST /v1/responses — OpenAI Responses API shim
+[DS-API] GET  /v1/models — supported OpenAI-compatible models
+[DS-API] GET  /v1/model-capabilities — real model mapping and capabilities
+[DS-API] GET  /v1/sessions — list active agent sessions
+[DS-API] POST /reset-session?agent=<id> — reset agent session
+[DS-API] POST /reset-session?agent=all — reset ALL sessions
+[dev-agent/acct:account_1] Created new session: 799eaad2-50c2-4fd1-b7ab-7e31535b846c
+[dev-agent] Got 2 chars (+0 reasoning chars) in 2765ms (msg#1)
+[dev-agent] Response openai (tool=false, 2765ms, 2 chars)
